@@ -8,19 +8,19 @@ class NavBar extends React.Component {
       <nav>
         <ul id="navigation">
           <li>
-            <a>
+            <div>
               <Link to="/">Home</Link>
-            </a>
+            </div>
           </li>
           <li>
-            <a>
+            <div>
               <Link to="/about">About</Link>
-            </a>
+            </div>
           </li>
           <li>
-            <a>
+            <div>
               <Link to="/contact">Contact</Link>
-            </a>
+            </div>
           </li>
         </ul>
       </nav>
