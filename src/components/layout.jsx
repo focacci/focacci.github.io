@@ -1,7 +1,7 @@
 import '../App.css';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import NavBar from '../components/nav-bar';
+import NavBar from './nav-bar/nav-bar';
 
 class Layout extends React.Component {
   render() {
