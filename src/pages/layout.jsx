@@ -1,24 +1,15 @@
 import '../App.css';
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
+import NavBar from '../components/nav-bar';
 
 class Layout extends React.Component {
   render() {
     return (
-      <>
-        <nav>
-          <ul id="navigation">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-          </ul>
-        </nav>
-
+      <div className='Layout'>
+        <NavBar />
         <Outlet />
-      </>
+      </div>
     );
   }
 }
